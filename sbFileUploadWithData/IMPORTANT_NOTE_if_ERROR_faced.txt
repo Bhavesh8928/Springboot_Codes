@@ -1,0 +1,7 @@
+Exception - Packet for query is too large (1832504 > 1048576). 
+	You can change this value on the server by setting the 
+	max_allowed_packet' variable.
+
+Solution – Go to mysql -> enter in your database -> go to sql tab ->
+	 and enter the command "SET GLOBAL max_allowed_packet=2097152;"
+ 
